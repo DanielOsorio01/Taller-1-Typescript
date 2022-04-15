@@ -1,0 +1,27 @@
+.fondo-azul {
+    background-color: dodgerblue;
+}
+
+.alineado-izq{
+    text-align: left;
+}
+
+.centrado{
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+
+td {
+    background-color: rgb(221, 221, 221);
+}
+
+.name {
+    color:rgb(0, 161, 254);
+}
+
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 1 Typescript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" \ />
+</head>
+<body>
+    <div class="container">
+        <div class="row fondo-azul">
+            <div class="col-2">
+                <img class="img-fluid max-width: 100% height: auto" style="max-width: 50px; max-height: 50px" src="./resources/tvblack.png" alt="logo">
+            </div>
+            <div class="col-10">
+                <h1 class="alineado-izq">TV Series</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 centrado">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Channel</th>
+                        <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h6 id="seasonsAvg"></h6>
+            </div>  
+        </div>
+    </div>
+    
+    <script type="module" src="./scripts/serie.js" ></script>
+    <script type="module" src="./scripts/data.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
